@@ -1,11 +1,12 @@
 import TitleSection from './components/sections/TitleSection'
 import AboutUsSection from './components/sections/AboutUsSection'
 import MenuSection from './components/sections/MenuSection';
+import ContactSection from './components/sections/ContactSection';
+import OrderOnlineSection from './components/sections/OrderOnlineSection';
 
 import './scss/Section.scss';
 import './scss/Text.scss';
 import './scss/Main.scss';
-import ContactSection from './components/sections/ContactSection';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <TitleSection />
             <AboutUsSection />
             <MenuSection />
+            <OrderOnlineSection />
             <ContactSection />
         </div>
     )
