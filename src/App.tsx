@@ -7,6 +7,7 @@ import OrderOnlineSection from './components/sections/OrderOnlineSection';
 import './scss/Section.scss';
 import './scss/Text.scss';
 import './scss/Main.scss';
+import './scss/Elements.scss';
 
 const App = () => {
     return (

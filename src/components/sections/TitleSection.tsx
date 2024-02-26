@@ -1,4 +1,5 @@
 import bgvideo from '../../assets/bgvideo.mp4';
+import Button from '../elements/Button';
 
 const TitleSection = () => {
     return (
@@ -26,10 +27,10 @@ const TitleSection = () => {
                     </div>
                     <div>
                         <div>
-                            <a href="#about-us"><button>About us</button></a>
-                            <a href="#menu"><button>Menu</button></a>
-                            <a href="#order-online"><button>Order online</button></a>
-                            <a href="#contact"><button>Contact</button></a>
+                            <Button text='About us' href='#about-us' />
+                            <Button text='Menu' href='#menu' />
+                            <Button text='Order online' href='#order-online' />
+                            <Button text='Contact' href='#contact' />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,26 @@
+.kf-button-link {
+    text-decoration: none;
+}
+
+.kf-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: 2px solid #dc3545;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: #dc3545;
+    }
+
+    transition: background-color 0.3s,
+    color 0.3s;
+}
+
+.kf-up-arrow-button-container {
+    position: absolute;
+    bottom: -10%;
+}
