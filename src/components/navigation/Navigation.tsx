@@ -1,4 +1,3 @@
-import React from 'react'
 import NavigationItem from '../elements/NavigationItem'
 
 const Navigation = () => {

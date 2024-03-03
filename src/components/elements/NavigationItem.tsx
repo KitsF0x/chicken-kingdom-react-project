@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface NavigationItemProps {
     text: string
     onclick?: () => void

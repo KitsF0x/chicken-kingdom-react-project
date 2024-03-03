@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 interface OpenedHoursProps {
     firstDay: string,
     secondDay?: string
