@@ -1,6 +1,6 @@
-import bgvideo from '../../assets/bgvideo.mp4';
-import Button from '../elements/Button';
-import HoursInfo from '../elements/HoursInfo';
+import bgvideo from '../../../assets/bgvideo.mp4';
+import Button from '../../elements/Button';
+import HoursInfo from '../../elements/HoursInfo';
 
 const TitleSection = () => {
     return (

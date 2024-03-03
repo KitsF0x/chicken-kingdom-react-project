@@ -1,25 +1,18 @@
-import TitleSection from './components/sections/TitleSection'
-import AboutUsSection from './components/sections/AboutUsSection'
-import MenuSection from './components/sections/MenuSection';
-import ContactSection from './components/sections/ContactSection';
-import OrderOnlineSection from './components/sections/OrderOnlineSection';
-import Navigation from './components/navigation/Navigation';
+import Navigation from './components/layout/navigation/Navigation';
 
 import './scss/Section.scss';
 import './scss/Text.scss';
 import './scss/Main.scss';
 import './scss/Elements.scss';
 import './scss/Navigation.scss';
+import Main from './components/layout/main/Main';
 
 const App = () => {
     return (
         <div>
             <Navigation />
-            <TitleSection />
-            <AboutUsSection />
-            <MenuSection />
-            <OrderOnlineSection />
-            <ContactSection />
+            <Main />
+
         </div>
     )
 }

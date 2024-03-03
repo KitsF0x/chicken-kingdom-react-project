@@ -1,4 +1,4 @@
-import PageUpButton from "../elements/PageUpButton"
+import PageUpButton from "../../elements/PageUpButton"
 
 const MenuSection = () => {
     return (
