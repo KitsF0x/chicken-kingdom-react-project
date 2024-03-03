@@ -1,5 +1,6 @@
 import bgvideo from '../../assets/bgvideo.mp4';
 import Button from '../elements/Button';
+import HoursInfo from '../elements/HoursInfo';
 
 const TitleSection = () => {
     return (
@@ -13,18 +14,10 @@ const TitleSection = () => {
                         <h1 className='display-1 text-center'>Chicken Kingdom</h1>
                         <h2 className='display-2 text-center'>Restaurant & Bar</h2>
                     </div>
-                    <div>
-                        <div>Monday - Friday</div>
-                        <div>8:00 AM - 9:00 PM</div>
-                    </div>
-                    <div>
-                        <div>Saturday</div>
-                        <div>10:00 AM - 10:00 PM</div>
-                    </div>
-                    <div>
-                        <div>Sunday</div>
-                        <div>10:00 AM - 7:00 PM</div>
-                    </div>
+                    <HoursInfo firstDay='Monday' secondDay='Thursday' startHour='10:00 AM' endHour='8:00 PM' />
+                    <HoursInfo firstDay='Friday' secondDay='Saturday' startHour='10:00 AM' endHour='10:00 PM' />
+                    <HoursInfo firstDay='Sunday' startHour='3:00 PM' endHour='8:00 PM' />
+
                     <div>
                         <div>
                             <Button text='About us' href='#about-us' />
