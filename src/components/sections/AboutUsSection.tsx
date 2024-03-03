@@ -1,6 +1,9 @@
+import PageUpButton from "../elements/StartPageButton"
+
 const AboutUsSection = () => {
     return (
         <section className='d-flex flex-column align-items-center justify-content-center kf-section kf-about-us-section' id='about-us'>
+            <PageUpButton />
             <h2 className='display-2'>
                 About Us
             </h2>
