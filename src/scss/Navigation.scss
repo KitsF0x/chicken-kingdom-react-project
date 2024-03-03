@@ -1,0 +1,20 @@
+.kf-navigation {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background: #c7c0bb;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kf-navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    height: 100%;
+    margin: 0 20px 0;
+}
