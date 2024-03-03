@@ -34,3 +34,24 @@
     font-size: 20px;
     font-style: italic;
 }
+
+.kf-orders-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    background-color: #00000096;
+    height: 100%;
+    width: 100%;
+}
+
+.kf-orders-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    height: 50%;
+    width: 50%;
+}
