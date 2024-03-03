@@ -1,4 +1,4 @@
-import PageUpButton from "../elements/StartPageButton"
+import PageUpButton from "../elements/PageUpButton"
 
 const AboutUsSection = () => {
     return (
